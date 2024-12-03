@@ -1,0 +1,35 @@
+/* Page.css */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff5733; /* Orange background */
+    color: white;
+    text-align: center;
+  }
+  
+  .page-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .page-subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Style for the logo image */
+  .logo-link {
+    display: block;
+    margin-bottom: 20px;  /* Space between logo and text */
+  }
+  
+  .logo-image {
+    width: 80px;  /* Adjust the size of the logo */
+    height: auto;
+    cursor: pointer;  /* Make the logo clickable */
+  }
+  

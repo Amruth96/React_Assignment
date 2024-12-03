@@ -1,0 +1,135 @@
+/* Page2.css */
+/* Card Layout */
+.signup-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Form */
+.signup-form h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .show-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.signup-button {
+  background-color: #ff6a39;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #e65a2d;
+}
+
+.login-prompt {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-prompt a {
+  color: #ff6a39;
+  text-decoration: none;
+}
+
+.login-prompt a:hover {
+  text-decoration: underline;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.divider .line {
+  height: 1px;
+  background-color: #ddd;
+  flex: 1;
+}
+
+.divider .text {
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social-buttons .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.social-buttons .facebook {
+  background-color: #fcfdfe;
+  color: rgb(8, 6, 6);
+}
+
+.social-buttons .google {
+  background-color: white;
+  color: rgb(10, 8, 8);
+}
+
+.social-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+

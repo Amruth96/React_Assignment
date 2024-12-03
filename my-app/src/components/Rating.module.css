@@ -1,0 +1,102 @@
+.ratingContainer {
+    max-width: 400px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .restaurantInfo {
+    margin-top: -40px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .restaurantInfo h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .orderStatus {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .ratingSection {
+    margin: 20px 0;
+  }
+  
+  .ratingPrompt {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .ratingText {
+    margin: 10px 0;
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .star.selected {
+    color: gold;
+  }
+  
+  .reviewForm {
+    margin-top: 20px;
+  }
+  
+  .textArea {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+  }
+  
+  .submitButton {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submitButton:hover {
+    background-color: #e5533d;
+  }
+  
